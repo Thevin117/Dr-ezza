@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Klinik Pergigian Dr Ezza | Bandar Sri Sendayan, Seremban</title>
+  <meta name="description" content="Klinik Pergigian Dr Ezza menyediakan rawatan pergigian profesional di Bandar Sri Sendayan, Seremban. Scaling, Braces, Pemutihan Gigi & lebih lagi. Buka 9:30 pagi–9 malam.">
+  <meta name="keywords" content="klinik pergigian seremban, dentist bandar sri sendayan, klinik gigi nusari, dr ezza dental, scaling seremban, braces seremban">
+  <meta property="og:title" content="Klinik Pergigian Dr Ezza — Bandar Sri Sendayan">
+  <meta property="og:description" content="Rawatan pergigian profesional & mesra pesakit. Senyum sihat bermula di sini.">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://klinikpergigiandrezza.com">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Dentist","name":"Klinik Pergigian Dr Ezza","address":{"@type":"PostalAddress","streetAddress":"Nusari Biz, 1764-1, Jln Nusari Bayu 7/2","addressLocality":"Seremban","addressRegion":"Negeri Sembilan","postalCode":"71950","addressCountry":"MY"},"telephone":"+60125045314","openingHours":["Mo 09:30-21:00","We 09:30-21:00","Th 09:30-21:00","Fr 09:30-21:00","Sa 09:30-21:00","Su 09:30-21:00"],"url":"https://klinikpergigiandrezza.com","sameAs":["https://www.facebook.com/p/Klinik-Pergigian-DR-EZZA-61572491042983/"]}
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700;1,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     TOKENS
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  :root {
+    --cyan:    #00B4D8;
+    --cyan-d:  #0097B8;
+    --purple:  #3A1F6E;
+    --purple-d:#2D1660;
+    --ink:     #1A1A1A;
+    --mid:     #6B7280;
+    --soft:    #9CA3AF;
+    --bg:      #F9F7F2;
+    --white:   #FFFFFF;
+    --bd:      #E8E4DC;
+    --red:     #EF4444;
+    --serif:   'Playfair Display', Georgia, serif;
+    --sans:    'Inter', system-ui, sans-serif;
+    --r:       14px;
+    --r-lg:    20px;
+    --ease:    cubic-bezier(.4,0,.2,1);
+  }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     RESET
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body { font-family: var(--sans); color: var(--ink); background: var(--bg); overflow-x: hidden; line-height: 1.65; }
+  img { display: block; max-width: 100%; height: auto; }
+  a { color: inherit; text-decoration: none; }
+  ul { list-style: none; }
+  button { cursor: pointer; font: inherit; border: none; background: none; }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     LAYOUT HELPERS
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  .wrap { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 16px; }
+  @media (min-width: 640px)  { .wrap { padding: 0 24px; } }
+  @media (min-width: 1024px) { .wrap { padding: 0 40px; } }
+
+  .sec      { padding: 64px 0; }
+  .sec-alt  { background: var(--white); }
+  @media (min-width: 768px)  { .sec { padding: 80px 0; } }
+  @media (min-width: 1024px) { .sec { padding: 100px 0; } }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     TYPOGRAPHY HELPERS
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  .tag {
+    display: block;
+    font-size: 0.7rem; font-weight: 700;
+    letter-spacing: .14em; text-transform: uppercase;
+    color: var(--cyan); margin-bottom: 10px;
+  }
+  .h2 {
+    font-family: var(--serif);
+    font-size: clamp(1.75rem, 4vw, 2.8rem);
+    font-weight: 800; color: var(--ink); line-height: 1.2;
+  }
+  .sub {
+    font-size: 0.925rem; color: var(--mid);
+    line-height: 1.75; max-width: 480px;
+  }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     BUTTONS
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center;
+    gap: 8px; border-radius: 100px;
+    font-size: 0.875rem; font-weight: 600;
+    padding: 12px 24px; transition: all .2s var(--ease);
+    white-space: nowrap; cursor: pointer;
+  }
+  .btn svg { flex-shrink: 0; }
+  .btn-cyan   { background: var(--cyan);   color: #fff; box-shadow: 0 4px 16px rgba(0,180,216,.3); }
+  .btn-cyan:hover { background: var(--cyan-d); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,180,216,.4); }
+  .btn-ghost  { background: var(--white); color: var(--ink); border: 1.5px solid var(--bd); }
+  .btn-ghost:hover { border-color: var(--ink); transform: translateY(-2px); }
+  .btn-white  { background: var(--white); color: var(--purple); box-shadow: 0 4px 16px rgba(0,0,0,.1); }
+  .btn-white:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,.15); }
+  .btn-outline-w { color: #fff; border: 1.5px solid rgba(255,255,255,.4); }
+  .btn-outline-w:hover { border-color: #fff; background: rgba(255,255,255,.08); }
+  .btn-outline-light { color: rgba(255,255,255,.7); border: 1px solid rgba(255,255,255,.25); }
+  .btn-outline-light:hover { color: #fff; border-color: rgba(255,255,255,.6); }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     NAVBAR
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  nav {
+    position: sticky; top: 0; z-index: 200;
+    background: rgba(255,255,255,.95);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--bd);
+  }
+  .nav-inner {
+    display: flex; align-items: center;
+    justify-content: space-between;
+    height: 64px; gap: 12px;
+  }
+  @media (min-width: 768px) { .nav-inner { height: 70px; } }
+
+  /* brand */
+  .nav-brand { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+  .nav-icon {
+    width: 40px; height: 40px; border-radius: 10px;
+    background: var(--purple); overflow: hidden; flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .nav-icon img { width: 100%; height: 100%; object-fit: cover; }
+  .nav-name { font-weight: 700; font-size: 0.875rem; color: var(--ink); line-height: 1.2; }
+  .nav-sub  { font-size: 0.7rem; color: var(--soft); }
+
+  /* desktop links */
+  .nav-links { display: none; align-items: center; gap: 28px; }
+  @media (min-width: 1024px) { .nav-links { display: flex; } }
+  .nav-links a { font-size: 0.825rem; font-weight: 500; color: var(--mid); transition: color .2s; }
+  .nav-links a:hover { color: var(--ink); }
+
+  /* desktop CTA */
+  .nav-cta { display: none; }
+  @media (min-width: 768px) { .nav-cta { display: inline-flex; } }
+
+  /* hamburger */
+  .hamburger {
+    display: flex; flex-direction: column; gap: 5px;
+    padding: 6px; border-radius: 8px;
+    transition: background .2s;
+  }
+  .hamburger:hover { background: var(--bg); }
+  @media (min-width: 1024px) { .hamburger { display: none; } }
+  .hamburger span { display: block; width: 20px; height: 1.5px; background: var(--ink); border-radius: 2px; transition: all .25s; }
+  .hamburger.open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+  .hamburger.open span:nth-child(2) { opacity: 0; }
+  .hamburger.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+
+  /* mobile menu */
+  .mob-menu {
+    display: none; flex-direction: column;
+    background: var(--white);
+    border-top: 1px solid var(--bd);
+    padding: 8px 16px 20px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.08);
+  }
+  @media (min-width: 640px) { .mob-menu { padding: 8px 24px 24px; } }
+  .mob-menu.open { display: flex; }
+  .mob-menu a {
+    padding: 13px 0; font-size: 0.95rem; font-weight: 500;
+    color: var(--ink); border-bottom: 1px solid var(--bd);
+    transition: color .15s;
+  }
+  .mob-menu a:hover { color: var(--cyan); }
+  .mob-menu a:last-of-type { border-bottom: none; }
+  .mob-cta { padding-top: 16px; display: flex; gap: 10px; }
+  .mob-cta .btn { flex: 1; }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     HERO
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  .hero {
+    background: var(--bg);
+    background-image:
+      radial-gradient(ellipse 55% 60% at 90% 10%, rgba(0,180,216,.08) 0%, transparent 70%),
+      radial-gradient(ellipse 40% 50% at 5% 90%, rgba(58,31,110,.06) 0%, transparent 60%);
+    padding: 48px 0 40px;
+  }
+  @media (min-width: 768px)  { .hero { padding: 64px 0 52px; } }
+  @media (min-width: 1024px) { .hero { padding: 80px 0 60px; min-height: calc(100vh - 70px); display: flex; align-items: center; } }
+
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  @media (min-width: 1024px) {
+    .hero-grid { grid-template-columns: 1fr 400px; gap: 60px; align-items: center; }
+  }
+
+  /* rating pill */
+  .rating-pill {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--white); border: 1px solid var(--bd);
+    border-radius: 100px; padding: 6px 14px;
+    font-size: 0.8rem; font-weight: 500; color: var(--ink);
+    margin-bottom: 20px;
+  }
+  @media (min-width: 768px) { .rating-pill { margin-bottom: 26px; } }
+  .rating-pill .star { color: #F59E0B; }
+
+  /* headline */
+  .hero-h1 { font-family: var(--serif); margin-bottom: 16px; line-height: 1.1; }
+  .hero-h1 .l1 { display: block; font-size: clamp(2.2rem, 7vw, 4.4rem); font-weight: 800; color: var(--ink); }
+  .hero-h1 .l2 { display: block; font-size: clamp(2.2rem, 7vw, 4.4rem); font-weight: 700; font-style: italic; color: var(--cyan); }
+  @media (min-width: 768px) { .hero-h1 { margin-bottom: 20px; } }
+
+  .hero-sub { font-size: 0.95rem; color: var(--mid); line-height: 1.75; margin-bottom: 28px; max-width: 520px; }
+  @media (min-width: 768px) { .hero-sub { font-size: 1rem; margin-bottom: 32px; } }
+
+  .hero-btns { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 36px; }
+  @media (min-width: 480px) { .hero-btns .btn { flex: none; } }
+
+  /* stats */
+  .hero-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    padding-top: 28px;
+    border-top: 1px solid var(--bd);
+  }
+  .h-stat { text-align: center; padding: 0 8px; }
+  .h-stat:not(:last-child) { border-right: 1px solid var(--bd); }
+  @media (min-width: 640px) {
+    .hero-stats { display: flex; gap: 0; }
+    .h-stat { text-align: left; padding: 0 32px 0 0; margin-right: 32px; }
+    .h-stat:not(:last-child) { border-right: 1px solid var(--bd); }
+    .h-stat:last-child { border-right: none; padding-right: 0; margin-right: 0; }
+  }
+  .h-n { font-family: var(--serif); font-size: 1.8rem; font-weight: 800; color: var(--ink); line-height: 1; }
+  .h-n sup { font-size: .9rem; vertical-align: super; }
+  .h-l { font-size: 0.72rem; color: var(--soft); margin-top: 4px; }
+
+  /* info card — shown only on desktop */
+  .info-card {
+    background: var(--white);
+    border: 1px solid var(--bd);
+    border-radius: var(--r-lg);
+    overflow: hidden;
+    box-shadow: 0 8px 40px rgba(0,0,0,.07);
+    display: none;
+  }
+  @media (min-width: 1024px) { .info-card { display: block; } }
+
+  /* mobile info strip — shown only on mobile */
+  .hero-mobile-info {
+    background: var(--white);
+    border: 1px solid var(--bd);
+    border-radius: var(--r-lg);
+    padding: 20px;
+    display: flex; flex-direction: column; gap: 14px;
+  }
+  @media (min-width: 1024px) { .hero-mobile-info { display: none; } }
+  .mi-row { display: flex; align-items: center; gap: 12px; font-size: 0.875rem; }
+  .mi-icon { width: 34px; height: 34px; border-radius: 9px; background: var(--bg); border: 1px solid var(--bd); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .mi-icon svg { width: 16px; height: 16px; }
+  .mi-lbl { font-size: 0.65rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--soft); }
+  .mi-val { font-size: 0.875rem; font-weight: 500; color: var(--ink); }
+  .mi-open { color: var(--cyan); }
+  .mi-closed { color: var(--red); }
+
+  /* card internals */
+  .card-head { padding: 22px 24px; border-bottom: 1px solid var(--bd); display: flex; align-items: center; gap: 12px; }
+  .card-logo { width: 48px; height: 48px; border-radius: 12px; background: var(--purple); overflow: hidden; flex-shrink: 0; }
+  .card-logo img { width: 100%; height: 100%; object-fit: cover; }
+  .card-cname { font-weight: 700; font-size: 0.9rem; color: var(--ink); line-height: 1.3; }
+  .card-cloc { display: flex; align-items: center; gap: 4px; font-size: 0.75rem; color: var(--soft); margin-top: 3px; }
+  .card-body { padding: 22px 24px; display: flex; flex-direction: column; gap: 18px; }
+  .card-hl { font-size: 0.65rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--soft); margin-bottom: 6px; }
+  .card-hv { font-size: 1.05rem; font-weight: 700; color: var(--ink); display: flex; align-items: center; gap: 8px; }
+  .open-tag { font-size: 0.85rem; font-weight: 600; color: var(--cyan); }
+  .closed-tag { color: var(--red); }
+  .card-div { height: 1px; background: var(--bd); }
+  .card-row { display: flex; align-items: center; gap: 10px; font-size: 0.85rem; color: var(--mid); }
+  .card-wa {
+    display: flex; align-items: center; justify-content: center; gap: 9px;
+    background: var(--cyan); color: #fff;
+    padding: 13px; border-radius: 12px;
+    font-size: 0.875rem; font-weight: 600;
+    transition: background .2s, transform .15s;
+    margin-top: 2px;
+  }
+  .card-wa:hover { background: var(--cyan-d); transform: translateY(-1px); }
+
+  /* scroll hint */
+  .scroll-hint {
+    display: none; flex-direction: column; align-items: center;
+    gap: 6px; margin-top: 48px;
+    font-size: 0.72rem; color: var(--soft);
+    letter-spacing: .08em; text-transform: uppercase;
+  }
+  @media (min-width: 1024px) { .scroll-hint { display: flex; } }
+  .scroll-hint svg { animation: bounce 1.8s ease-in-out infinite; }
+  @keyframes bounce { 0%,100%{transform:translateY(0)} 50%{transform:translateY(5px)} }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     SERVICES
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  .svc-intro { margin-bottom: 32px; }
+  @media (min-width: 768px) {
+    .svc-intro { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 40px; }
+  }
+  .svc-intro .h2 { margin-bottom: 12px; }
+  @media (min-width: 768px) { .svc-intro .h2 { margin-bottom: 0; } }
+
+  .svc-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1px; background: var(--bd);
+    border: 1px solid var(--bd);
+    border-radius: var(--r-lg); overflow: hidden;
+  }
+  @media (min-width: 480px)  { .svc-grid { grid-template-columns: repeat(2,1fr); } }
+  @media (min-width: 1024px) { .svc-grid { grid-template-columns: repeat(3,1fr); } }
+
+  .svc {
+    background: var(--white); padding: 28px 24px;
+    display: flex; flex-direction: column;
+    transition: background .2s;
+  }
+  @media (min-width: 768px) { .svc { padding: 32px 28px; } }
+  .svc:hover { background: #FDFCFA; }
+  .svc-num {
+    font-family: var(--serif); font-size: 1.6rem;
+    font-weight: 800; color: var(--bd);
+    margin-bottom: 14px; line-height: 1;
+  }
+  .svc h3 { font-size: 0.925rem; font-weight: 600; color: var(--ink); margin-bottom: 8px; }
+  .svc p  { font-size: 0.825rem; color: var(--mid); line-height: 1.65; flex: 1; }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     ABOUT
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  .about-grid { display: grid; grid-template-columns: 1fr; gap: 40px; }
+  @media (min-width: 1024px) { .about-grid { grid-template-columns: 1fr 1fr; gap: 72px; align-items: center; } }
+
+  .about-text .h2 { margin-bottom: 16px; }
+  .about-text p { font-size: 0.925rem; color: var(--mid); line-height: 1.8; margin-bottom: 12px; }
+  .check-list { margin: 20px 0 28px; display: flex; flex-direction: column; gap: 10px; }
+  .check-item { display: flex; align-items: center; gap: 11px; font-size: 0.875rem; color: var(--ink); font-weight: 500; }
+  .chk {
+    width: 20px; height: 20px; border-radius: 50%;
+    background: var(--purple);
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .chk svg { width: 10px; height: 10px; }
+
+  .about-panel {
+    background: var(--white); border: 1px solid var(--bd);
+    border-radius: var(--r-lg); overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0,0,0,.05);
+  }
+  .ap-head {
+    padding: 22px 24px; background: var(--bg);
+    border-bottom: 1px solid var(--bd);
+    display: flex; align-items: center; gap: 12px;
+  }
+  .ap-logo { width: 46px; height: 46px; border-radius: 12px; background: var(--purple); overflow: hidden; flex-shrink: 0; }
+  .ap-logo img { width: 100%; height: 100%; object-fit: cover; }
+  .ap-name { font-weight: 700; font-size: 0.9rem; color: var(--ink); }
+  .ap-loc  { font-size: 0.73rem; color: var(--soft); margin-top: 2px; }
+  .ap-body { padding: 20px 24px; display: flex; flex-direction: column; gap: 16px; }
+  .ap-row  { display: flex; gap: 12px; align-items: flex-start; }
+  .ap-icon { width: 34px; height: 34px; border-radius: 9px; background: var(--bg); border: 1px solid var(--bd); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .ap-icon svg { width: 15px; height: 15px; }
+  .ap-lbl { font-size: 0.65rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--soft); margin-bottom: 2px; }
+  .ap-val { font-size: 0.85rem; font-weight: 500; color: var(--ink); line-height: 1.5; }
+  .ap-val a { color: var(--cyan); }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     HOURS
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  .hours-layout { display: grid; grid-template-columns: 1fr; gap: 28px; }
+  @media (min-width: 768px)  { .hours-layout { grid-template-columns: 1fr 1fr; gap: 40px; } }
+  @media (min-width: 1024px) { .hours-layout { gap: 56px; } }
+
+  .hours-tbl { background: var(--white); border: 1px solid var(--bd); border-radius: var(--r-lg); overflow: hidden; }
+  .hr { display: flex; justify-content: space-between; align-items: center; padding: 13px 20px; border-bottom: 1px solid var(--bd); }
+  @media (min-width: 640px) { .hr { padding: 15px 24px; } }
+  .hr:last-child { border-bottom: none; }
+  .hr.today { background: rgba(0,180,216,.04); }
+  .hr-day  { font-size: 0.875rem; font-weight: 600; color: var(--ink); display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .t-badge { font-size: 0.6rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; background: var(--purple); color: #fff; padding: 2px 7px; border-radius: 100px; }
+  .hr-time   { font-size: 0.825rem; color: var(--mid); white-space: nowrap; }
+  .hr-closed { font-size: 0.825rem; color: var(--red); font-weight: 600; }
+
+  .contact-cards { display: flex; flex-direction: column; gap: 12px; }
+  .cc {
+    background: var(--white); border: 1px solid var(--bd);
+    border-radius: var(--r); padding: 16px 18px;
+    display: flex; gap: 12px; align-items: center;
+  }
+  .cc-icon { width: 38px; height: 38px; border-radius: 10px; background: var(--bg); border: 1px solid var(--bd); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .cc-icon svg { width: 17px; height: 17px; }
+  .cc-lbl { font-size: 0.63rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--soft); margin-bottom: 2px; }
+  .cc-val { font-size: 0.875rem; font-weight: 500; color: var(--ink); }
+  .cc-val a { color: var(--ink); transition: color .15s; }
+  .cc-val a:hover { color: var(--cyan); }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     REVIEWS
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  .rv-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  @media (min-width: 640px)  { .rv-grid { grid-template-columns: repeat(2,1fr); gap: 20px; } }
+  @media (min-width: 1024px) { .rv-grid { grid-template-columns: repeat(3,1fr); gap: 24px; } }
+
+  .rv {
+    background: var(--white); border: 1px solid var(--bd);
+    border-radius: var(--r-lg); padding: 24px;
+    display: flex; flex-direction: column;
+    transition: box-shadow .2s, transform .2s;
+  }
+  .rv:hover { box-shadow: 0 8px 28px rgba(0,0,0,.07); transform: translateY(-3px); }
+  .rv-stars { color: #F59E0B; font-size: 0.85rem; letter-spacing: 2px; margin-bottom: 12px; }
+  .rv-text  { font-size: 0.875rem; color: var(--mid); line-height: 1.75; flex: 1; margin-bottom: 18px; }
+  .rv-foot  { display: flex; align-items: center; gap: 10px; }
+  .rv-av    { width: 34px; height: 34px; border-radius: 50%; background: linear-gradient(135deg, var(--purple), var(--cyan)); display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 700; font-size: 0.8rem; flex-shrink: 0; }
+  .rv-name  { font-size: 0.825rem; font-weight: 600; color: var(--ink); }
+  .rv-src   { font-size: 0.72rem; color: var(--soft); }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     MAP
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  .map-sec { background: var(--ink); }
+  .map-grid { display: grid; grid-template-columns: 1fr; }
+  @media (min-width: 1024px) { .map-grid { grid-template-columns: 1fr 380px; } }
+
+  .map-frame { height: 280px; }
+  @media (min-width: 640px)  { .map-frame { height: 360px; } }
+  @media (min-width: 1024px) { .map-frame { height: 460px; } }
+  .map-frame iframe { width: 100%; height: 100%; border: 0; display: block; }
+
+  .map-panel {
+    padding: 40px 16px;
+    display: flex; flex-direction: column; gap: 24px;
+  }
+  @media (min-width: 640px)  { .map-panel { padding: 48px 24px; } }
+  @media (min-width: 1024px) { .map-panel { padding: 56px 44px; justify-content: center; } }
+
+  .map-panel .tag { color: var(--cyan); }
+  .map-panel .h2  { color: var(--white); }
+  .map-det { display: flex; gap: 12px; align-items: flex-start; }
+  .map-det-ic { flex-shrink: 0; margin-top: 2px; }
+  .map-det-ic svg { width: 17px; height: 17px; stroke: var(--cyan); fill: none; stroke-width: 1.8; }
+  .map-lbl { font-size: 0.65rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: rgba(255,255,255,.35); margin-bottom: 4px; }
+  .map-val { font-size: 0.875rem; color: rgba(255,255,255,.78); line-height: 1.6; }
+  .map-val a { color: var(--cyan); }
+  .map-acts { display: flex; gap: 10px; flex-wrap: wrap; }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     CTA STRIP
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  .cta-strip { background: var(--cyan); padding: 52px 0; }
+  .cta-inner { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 28px; }
+  @media (min-width: 768px) { .cta-inner { flex-direction: row; justify-content: space-between; text-align: left; } }
+  .cta-inner h2 { font-family: var(--serif); font-size: clamp(1.4rem, 3vw, 2rem); font-weight: 800; color: #fff; }
+  .cta-inner p  { font-size: 0.9rem; color: rgba(255,255,255,.82); margin-top: 6px; }
+  .cta-btns { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; flex-shrink: 0; }
+  @media (min-width: 768px) { .cta-btns { justify-content: flex-end; } }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     FOOTER
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  footer { background: #0F0F0F; padding: 48px 0 24px; }
+  .footer-grid {
+    display: grid; grid-template-columns: 1fr;
+    gap: 36px; padding-bottom: 36px;
+    border-bottom: 1px solid rgba(255,255,255,.07);
+    margin-bottom: 20px;
+  }
+  @media (min-width: 640px)  { .footer-grid { grid-template-columns: repeat(2,1fr); gap: 32px; } }
+  @media (min-width: 1024px) { .footer-grid { grid-template-columns: 1.5fr 1fr 1fr; gap: 48px; } }
+
+  .f-brand img { height: 38px; filter: brightness(0) invert(1); margin-bottom: 12px; opacity: .75; }
+  .f-desc { font-size: 0.825rem; color: rgba(255,255,255,.35); line-height: 1.75; max-width: 280px; margin-bottom: 18px; }
+  .f-social { display: flex; gap: 8px; }
+  .f-social a { width: 34px; height: 34px; border: 1px solid rgba(255,255,255,.1); border-radius: 8px; display: flex; align-items: center; justify-content: center; transition: all .2s; }
+  .f-social a:hover { border-color: var(--cyan); background: rgba(0,180,216,.1); }
+  .f-social svg { width: 14px; height: 14px; fill: rgba(255,255,255,.45); }
+  .f-col h4 { font-size: 0.65rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: rgba(255,255,255,.25); margin-bottom: 14px; }
+  .f-col ul { display: flex; flex-direction: column; gap: 9px; }
+  .f-col ul a { font-size: 0.825rem; color: rgba(255,255,255,.4); transition: color .15s; }
+  .f-col ul a:hover { color: var(--cyan); }
+  .f-bottom {
+    display: flex; justify-content: center; flex-direction: column;
+    align-items: center; gap: 8px; text-align: center;
+    font-size: 0.75rem; color: rgba(255,255,255,.2);
+  }
+  @media (min-width: 640px) { .f-bottom { flex-direction: row; justify-content: space-between; text-align: left; } }
+  .f-bottom a { color: var(--cyan); }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     WA FLOATING BUTTON
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  .wa-float {
+    position: fixed; bottom: 20px; right: 16px; z-index: 999;
+    background: #25D366; color: #fff;
+    display: inline-flex; align-items: center; gap: 0;
+    width: 52px; height: 52px;
+    border-radius: 50%;
+    box-shadow: 0 4px 20px rgba(37,211,102,.45);
+    transition: all .2s var(--ease);
+    overflow: hidden;
+  }
+  @media (min-width: 640px) {
+    .wa-float { width: auto; height: auto; border-radius: 100px; padding: 13px 20px; gap: 9px; right: 24px; bottom: 24px; }
+  }
+  @media (min-width: 1024px) { .wa-float { bottom: 28px; right: 28px; } }
+  .wa-float:hover { transform: translateY(-3px); box-shadow: 0 8px 28px rgba(37,211,102,.55); }
+  .wa-float svg { width: 26px; height: 26px; flex-shrink: 0; margin: auto; }
+  @media (min-width: 640px) { .wa-float svg { width: 19px; height: 19px; margin: 0; } }
+  .wa-label { display: none; font-size: 0.875rem; font-weight: 600; }
+  @media (min-width: 640px) { .wa-label { display: block; } }
+  .wa-float::before {
+    content: ''; position: absolute; inset: 0; border-radius: inherit;
+    background: inherit; animation: waPing 2.5s infinite; opacity: 0;
+    pointer-events: none;
+  }
+  @keyframes waPing { 0%{transform:scale(1);opacity:.35} 80%,100%{transform:scale(1.8);opacity:0} }
+  </style>
+</head>
+<body>
+
+<!-- ══════════ NAV ══════════ -->
+<nav id="nav">
+  <div class="wrap">
+    <div class="nav-inner">
+      <div class="nav-brand">
+        <div class="nav-icon"><img src="assets/logo.jpg" alt="Logo"></div>
+        <div>
+          <div class="nav-name">Dr. Ezza</div>
+          <div class="nav-sub">Klinik Pergigian</div>
+        </div>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#home">Laman Utama</a></li>
+        <li><a href="#services">Perkhidmatan</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#hours">Waktu</a></li>
+        <li><a href="#reviews">Ulasan</a></li>
+        <li><a href="#location">Lokasi</a></li>
+      </ul>
+
+      <div style="display:flex;align-items:center;gap:10px;">
+        <a href="https://wa.me/60125045314?text=Hi%2C+saya+ingin+membuat+temujanji" target="_blank" class="btn btn-cyan nav-cta" style="padding:9px 18px;font-size:.825rem;">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.488"/></svg>
+          Temujanji
+        </a>
+        <button class="hamburger" id="ham" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile menu -->
+  <div class="mob-menu" id="mob">
+    <a href="#home"     onclick="closeMob()">Laman Utama</a>
+    <a href="#services" onclick="closeMob()">Perkhidmatan</a>
+    <a href="#about"    onclick="closeMob()">Tentang Kami</a>
+    <a href="#hours"    onclick="closeMob()">Waktu Operasi</a>
+    <a href="#reviews"  onclick="closeMob()">Ulasan</a>
+    <a href="#location" onclick="closeMob()">Lokasi & Hubungi</a>
+    <div class="mob-cta">
+      <a href="https://wa.me/60125045314?text=Hi%2C+saya+ingin+membuat+temujanji" target="_blank" class="btn btn-cyan" style="flex:1;">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.488"/></svg>
+        WhatsApp Kami
+      </a>
+      <a href="tel:+60125045314" class="btn btn-ghost" style="flex:1;">Telefon</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ══════════ HERO ══════════ -->
+<section class="hero" id="home">
+  <div class="wrap" style="width:100%;">
+    <div class="hero-grid">
+
+      <!-- TEXT SIDE -->
+      <div>
+        <div class="rating-pill">
+          <span class="star">★</span>
+          5.0 &nbsp;·&nbsp; Klinik Pergigian Profesional
+        </div>
+        <h1 class="hero-h1">
+          <span class="l1">Senyuman Anda</span>
+          <span class="l2">Layak Yang Terbaik</span>
+        </h1>
+        <p class="hero-sub">Rawatan pergigian yang lembut, profesional dan mesra keluarga di Bandar Sri Sendayan, Seremban. Peralatan moden, pasukan prihatin dan harga berpatutan.</p>
+        <div class="hero-btns">
+          <a href="https://wa.me/60125045314?text=Hi%2C+saya+ingin+membuat+temujanji+di+Klinik+Pergigian+Dr+Ezza" target="_blank" class="btn btn-cyan">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.488"/></svg>
+            Temujanji via WhatsApp
+          </a>
+          <a href="#services" class="btn btn-ghost">Lihat Perkhidmatan</a>
+        </div>
+
+        <!-- Mobile clinic info strip -->
+        <div class="hero-mobile-info">
+          <div class="mi-row">
+            <div class="mi-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#00B4D8" stroke-width="1.8" width="16" height="16"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <div>
+              <div class="mi-lbl">Waktu Hari Ini</div>
+              <div class="mi-val">
+                <span id="mob-open-tag" class="mi-open">—</span>
+                <span id="mob-hours-text"> —</span>
+              </div>
+            </div>
+          </div>
+          <div class="mi-row">
+            <div class="mi-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#00B4D8" stroke-width="1.8" width="16" height="16"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            </div>
+            <div>
+              <div class="mi-lbl">Telefon / WhatsApp</div>
+              <div class="mi-val"><a href="tel:+60125045314" style="color:var(--ink)">+60 12-504 5314</a></div>
+            </div>
+          </div>
+          <div class="mi-row">
+            <div class="mi-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#00B4D8" stroke-width="1.8" width="16" height="16"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            </div>
+            <div>
+              <div class="mi-lbl">Alamat</div>
+              <div class="mi-val" style="font-size:.825rem;">Nusari Biz, Jln Nusari Bayu 7/2, Bandar Sri Sendayan</div>
+            </div>
+          </div>
+          <a href="https://wa.me/60125045314?text=Hi%2C+saya+ingin+membuat+temujanji" target="_blank" class="btn btn-cyan" style="width:100%;justify-content:center;">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="17" height="17"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.488"/></svg>
+            WhatsApp Kami Sekarang
+          </a>
+        </div>
+
+        <!-- Stats -->
+        <div class="hero-stats" style="margin-top:28px;">
+          <div class="h-stat"><div class="h-n">9<sup>+</sup></div><div class="h-l">Perkhidmatan</div></div>
+          <div class="h-stat"><div class="h-n">5<sup>★</sup></div><div class="h-l">Google Rating</div></div>
+          <div class="h-stat"><div class="h-n">9<sup>PM</sup></div><div class="h-l">Waktu Tutup</div></div>
+        </div>
+      </div>
+
+      <!-- DESKTOP INFO CARD -->
+      <div class="info-card">
+        <div class="card-head">
+          <div class="card-logo"><img src="assets/logo.jpg" alt="Logo"></div>
+          <div>
+            <div class="card-cname">Klinik Pergigian Dr Ezza</div>
+            <div class="card-cloc">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              Bandar Sri Sendayan, Seremban
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <div>
+            <div class="card-hl">Waktu Hari Ini</div>
+            <div class="card-hv">
+              <span id="desk-open-tag" class="open-tag">—</span>
+              <span id="desk-hours-text">—</span>
+            </div>
+          </div>
+          <div class="card-div"></div>
+          <div style="display:flex;flex-direction:column;gap:10px;">
+            <div class="card-row">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#00B4D8" stroke-width="1.8" width="15" height="15"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+              +60 12-504 5314
+            </div>
+            <div class="card-row">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#00B4D8" stroke-width="1.8" width="15" height="15"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              Nusari Biz, Jln Nusari Bayu 7/2
+            </div>
+          </div>
+          <a href="https://wa.me/60125045314?text=Hi%2C+saya+ingin+membuat+temujanji" target="_blank" class="card-wa">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.488"/></svg>
+            WhatsApp Kami Sekarang
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      Tatal untuk meneroka
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M19 9l-7 7-7-7"/></svg>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ SERVICES ══════════ -->
+<section class="sec sec-alt" id="services">
+  <div class="wrap">
+    <div class="svc-intro">
+      <div>
+        <span class="tag">Perkhidmatan Kami</span>
+        <h2 class="h2">Rawatan Lengkap<br>Untuk Seluruh Keluarga</h2>
+      </div>
+      <p class="sub" style="margin-top:12px;">Kami menyediakan pelbagai rawatan pergigian menggunakan teknik dan peralatan terkini untuk keselesaan setiap pesakit.</p>
+    </div>
+    <div class="svc-grid">
+      <div class="svc"><div class="svc-num">01</div><h3>Scaling & Polishing</h3><p>Pembersihan menyeluruh membuang tartar dan plak untuk gigi bersih, gusi sihat dan nafas segar.</p></div>
+      <div class="svc"><div class="svc-num">02</div><h3>Tampalan Gigi</h3><p>Rawatan gigi berlubang dengan bahan komposit tahan lama yang sesuai dengan warna gigi semula jadi.</p></div>
+      <div class="svc"><div class="svc-num">03</div><h3>Cabutan Gigi</h3><p>Prosedur cabutan selamat dan selesa termasuk cabutan gigi bongsu dengan teknik moden tanpa sakit.</p></div>
+      <div class="svc"><div class="svc-num">04</div><h3>Pendakap Gigi</h3><p>Rawatan ortodontik meluruskan gigi dan memperbaiki susunan gigitan untuk senyuman yang sempurna.</p></div>
+      <div class="svc"><div class="svc-num">05</div><h3>Rawatan Saluran Akar</h3><p>Menyelamatkan gigi rosuk teruk daripada dicabut melalui rawatan saluran akar yang teliti dan berkesan.</p></div>
+      <div class="svc"><div class="svc-num">06</div><h3>Pemutihan Gigi</h3><p>Cerahkan senyuman dengan rawatan bleaching profesional untuk gigi lebih putih dan penuh keyakinan.</p></div>
+      <div class="svc"><div class="svc-num">07</div><h3>Gigi Palsu</h3><p>Penyelesaian gigi palsu yang selesa dan semula jadi untuk menggantikan gigi yang hilang sepenuhnya.</p></div>
+      <div class="svc"><div class="svc-num">08</div><h3>Crown & Bridge</h3><p>Pemulihan gigi rosak dengan mahkota porselin atau menyambung gigi hilang dengan jambatan gigi.</p></div>
+      <div class="svc"><div class="svc-num">09</div><h3>Rawatan Kecemasan</h3><p>Sedia membantu kes kecemasan pergigian seperti sakit gigi teruk, gigi patah atau jangkitan gusi.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ ABOUT ══════════ -->
+<section class="sec" id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-text">
+        <span class="tag">Tentang Kami</span>
+        <h2 class="h2">Rawatan Yang<br>Anda Boleh Percaya</h2>
+        <p style="margin-top:16px;">Klinik Pergigian Dr Ezza ditubuhkan atas visi untuk menyediakan rawatan pergigian berkualiti tinggi dalam persekitaran yang mesra dan bersih di Bandar Sri Sendayan.</p>
+        <p>Dr Ezza adalah pengamal pergigian berdaftar yang berdedikasi memberikan perkhidmatan terbaik kepada setiap pesakit dengan pendekatan yang teliti, prihatin dan berkesan.</p>
+        <ul class="check-list">
+          <li class="check-item"><div class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></div>Pengamal Pergigian Berdaftar (KKM)</li>
+          <li class="check-item"><div class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></div>Berdaftar dengan Majlis Pergigian Malaysia</li>
+          <li class="check-item"><div class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></div>Peralatan Moden & Teknik Terkini</li>
+          <li class="check-item"><div class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></div>Persekitaran Klinik Bersih & Selesa</li>
+          <li class="check-item"><div class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></div>Walk-In & Temujanji Diterima</li>
+        </ul>
+        <a href="https://wa.me/60125045314?text=Hi+Dr+Ezza%2C+saya+ingin+bertanya" target="_blank" class="btn btn-cyan">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="17" height="17"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.488"/></svg>
+          Hubungi Kami
+        </a>
+      </div>
+      <div class="about-panel">
+        <div class="ap-head">
+          <div class="ap-logo"><img src="assets/logo.jpg" alt="Logo"></div>
+          <div><div class="ap-name">Klinik Pergigian Dr Ezza</div><div class="ap-loc">Nusari Biz, Bandar Sri Sendayan</div></div>
+        </div>
+        <div class="ap-body">
+          <div class="ap-row">
+            <div class="ap-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#00B4D8" stroke-width="1.8" width="15" height="15"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></div>
+            <div><div class="ap-lbl">Telefon / WhatsApp</div><div class="ap-val"><a href="tel:+60125045314">+60 12-504 5314</a></div></div>
+          </div>
+          <div class="ap-row">
+            <div class="ap-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#00B4D8" stroke-width="1.8" width="15" height="15"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+            <div><div class="ap-lbl">Waktu Operasi</div><div class="ap-val">Isnin, Rabu–Ahad: 9:30 pg – 9:00 mlm<br><span style="color:var(--red);font-size:.8rem;">Selasa: Tutup</span></div></div>
+          </div>
+          <div class="ap-row">
+            <div class="ap-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#00B4D8" stroke-width="1.8" width="15" height="15"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div>
+            <div><div class="ap-lbl">Alamat</div><div class="ap-val">Nusari Biz, 1764-1, Jln Nusari Bayu 7/2,<br>Bandar Sri Sendayan, 71950 Seremban</div></div>
+          </div>
+          <div class="ap-row">
+            <div class="ap-icon"><svg viewBox="0 0 24 24" fill="#1877F2" width="15" height="15"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></div>
+            <div><div class="ap-lbl">Facebook</div><div class="ap-val"><a href="https://www.facebook.com/p/Klinik-Pergigian-DR-EZZA-61572491042983/" target="_blank">Klinik Pergigian DR EZZA</a></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ HOURS ══════════ -->
+<section class="sec sec-alt" id="hours">
+  <div class="wrap">
+    <span class="tag">Waktu Kami</span>
+    <h2 class="h2" style="margin-bottom:32px;">Waktu Operasi</h2>
+    <div class="hours-layout">
+      <div class="hours-tbl" id="hours-tbl">
+        <div class="hr" data-day="1"><span class="hr-day">Isnin</span><span class="hr-time">9:30 pagi – 9:00 malam</span></div>
+        <div class="hr" data-day="2"><span class="hr-day">Selasa</span><span class="hr-closed">Tutup</span></div>
+        <div class="hr" data-day="3"><span class="hr-day">Rabu</span><span class="hr-time">9:30 pagi – 9:00 malam</span></div>
+        <div class="hr" data-day="4"><span class="hr-day">Khamis</span><span class="hr-time">9:30 pagi – 9:00 malam</span></div>
+        <div class="hr" data-day="5"><span class="hr-day">Jumaat</span><span class="hr-time">9:30 pagi – 9:00 malam</span></div>
+        <div class="hr" data-day="6"><span class="hr-day">Sabtu</span><span class="hr-time">9:30 pagi – 9:00 malam</span></div>
+        <div class="hr" data-day="0"><span class="hr-day">Ahad</span><span class="hr-time">9:30 pagi – 9:00 malam</span></div>
+      </div>
+      <div class="contact-cards">
+        <div class="cc">
+          <div class="cc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#00B4D8" stroke-width="1.8" width="17" height="17"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></div>
+          <div><div class="cc-lbl">Telefon</div><div class="cc-val"><a href="tel:+60125045314">+60 12-504 5314</a></div></div>
+        </div>
+        <div class="cc">
+          <div class="cc-icon"><svg viewBox="0 0 24 24" fill="#25D366" width="17" height="17"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.488"/></svg></div>
+          <div><div class="cc-lbl">WhatsApp</div><div class="cc-val"><a href="https://wa.me/60125045314?text=Hi%2C+saya+ingin+tanya" target="_blank">+60 12-504 5314</a></div></div>
+        </div>
+        <div class="cc">
+          <div class="cc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#00B4D8" stroke-width="1.8" width="17" height="17"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div>
+          <div><div class="cc-lbl">Alamat</div><div class="cc-val" style="font-size:.825rem;">Nusari Biz, 1764-1, Jln Nusari Bayu 7/2, Bandar Sri Sendayan, 71950 Seremban</div></div>
+        </div>
+        <div class="cc">
+          <div class="cc-icon"><svg viewBox="0 0 24 24" fill="#1877F2" width="17" height="17"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></div>
+          <div><div class="cc-lbl">Facebook</div><div class="cc-val"><a href="https://www.facebook.com/p/Klinik-Pergigian-DR-EZZA-61572491042983/" target="_blank">Klinik Pergigian DR EZZA</a></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ REVIEWS ══════════ -->
+<section class="sec" id="reviews">
+  <div class="wrap">
+    <div style="text-align:center;margin-bottom:36px;">
+      <span class="tag">Kata Pesakit Kami</span>
+      <h2 class="h2">Ulasan & Testimoni</h2>
+    </div>
+    <div class="rv-grid">
+      <div class="rv">
+        <div class="rv-stars">★★★★★</div>
+        <p class="rv-text">"Doktor sangat mesra dan profesional. Prosedur scaling dilakukan dengan cepat dan tidak sakit langsung. Klinik pun bersih dan selesa. Sangat disyorkan!"</p>
+        <div class="rv-foot"><div class="rv-av">A</div><div><div class="rv-name">Ahmad R.</div><div class="rv-src">Ulasan Google</div></div></div>
+      </div>
+      <div class="rv">
+        <div class="rv-stars">★★★★★</div>
+        <p class="rv-text">"Pertama kali buat braces di sini. Dr Ezza sangat teliti dalam menerangkan prosedur. Staf pun baik dan peramah. Klinik bersih dan moden!"</p>
+        <div class="rv-foot"><div class="rv-av">S</div><div><div class="rv-name">Siti N.</div><div class="rv-src">Ulasan Google</div></div></div>
+      </div>
+      <div class="rv">
+        <div class="rv-stars">★★★★★</div>
+        <p class="rv-text">"Datang untuk cabut gigi bongsu. Dr Ezza sangat berhati-hati dan tidak sakit pun! Staf membantu dari awal hingga akhir. Akan datang semula!"</p>
+        <div class="rv-foot"><div class="rv-av">M</div><div><div class="rv-name">Muhammad H.</div><div class="rv-src">Ulasan Facebook</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ MAP ══════════ -->
+<section class="map-sec" id="location">
+  <div class="map-grid">
+    <div class="map-frame">
+      <iframe src="https://maps.google.com/maps?q=2.6676864,101.8746333&z=17&output=embed"
+              title="Lokasi Klinik Pergigian Dr Ezza" allowfullscreen loading="lazy"></iframe>
+    </div>
+    <div class="map-panel">
+      <div>
+        <span class="tag">Lokasi Kami</span>
+        <h2 class="h2">Jumpa Kami<br>Di Sini</h2>
+      </div>
+      <div class="map-det">
+        <div class="map-det-ic"><svg viewBox="0 0 24 24" width="17" height="17"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div>
+        <div><div class="map-lbl">Alamat</div><div class="map-val">Nusari Biz, 1764-1, Jln Nusari Bayu 7/2,<br>Bandar Sri Sendayan, 71950 Seremban,<br>Negeri Sembilan</div></div>
+      </div>
+      <div class="map-det">
+        <div class="map-det-ic"><svg viewBox="0 0 24 24" width="17" height="17"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></div>
+        <div><div class="map-lbl">Hubungi</div><div class="map-val"><a href="tel:+60125045314">+60 12-504 5314</a></div></div>
+      </div>
+      <div class="map-det">
+        <div class="map-det-ic"><svg viewBox="0 0 24 24" width="17" height="17"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+        <div><div class="map-lbl">Waktu</div><div class="map-val">Isnin, Rabu–Ahad: 9:30 pg – 9:00 mlm<br><span style="color:#F87171;">Selasa: Tutup</span></div></div>
+      </div>
+      <div class="map-acts">
+        <a href="https://www.google.com/maps/place/Klinik+Pergigian+Dr.+Ezza/@2.6676864,101.8746333,17z" target="_blank" class="btn btn-cyan" style="padding:11px 20px;font-size:.825rem;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          Dapatkan Arah
+        </a>
+        <a href="tel:+60125045314" class="btn btn-outline-light" style="padding:11px 20px;font-size:.825rem;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+          Telefon
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ CTA ══════════ -->
+<section class="cta-strip">
+  <div class="wrap">
+    <div class="cta-inner">
+      <div>
+        <h2>Sedia Untuk Senyuman Yang Lebih Sihat?</h2>
+        <p>Hubungi kami melalui WhatsApp — pantas, mudah dan percuma.</p>
+      </div>
+      <div class="cta-btns">
+        <a href="https://wa.me/60125045314?text=Hi+Dr+Ezza%2C+saya+ingin+membuat+temujanji" target="_blank" class="btn btn-white">
+          <svg viewBox="0 0 24 24" fill="#25D366" width="17" height="17"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.488"/></svg>
+          WhatsApp Sekarang
+        </a>
+        <a href="tel:+60125045314" class="btn btn-outline-w">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+          Telefon
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ FOOTER ══════════ -->
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="f-brand">
+        <img src="assets/logo.jpg" alt="Klinik Pergigian Dr Ezza">
+        <p class="f-desc">Rawatan pergigian berkualiti tinggi dalam persekitaran yang mesra, bersih dan selesa. Senyum sihat adalah kebanggaan kami.</p>
+        <div class="f-social">
+          <a href="https://www.facebook.com/p/Klinik-Pergigian-DR-EZZA-61572491042983/" target="_blank" aria-label="Facebook">
+            <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <a href="https://wa.me/60125045314" target="_blank" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.488"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="f-col">
+        <h4>Perkhidmatan</h4>
+        <ul>
+          <li><a href="#services">Scaling & Polishing</a></li>
+          <li><a href="#services">Tampalan Gigi</a></li>
+          <li><a href="#services">Cabutan Gigi</a></li>
+          <li><a href="#services">Pendakap Gigi</a></li>
+          <li><a href="#services">Rawatan Saluran Akar</a></li>
+          <li><a href="#services">Pemutihan Gigi</a></li>
+        </ul>
+      </div>
+      <div class="f-col">
+        <h4>Pautan Pantas</h4>
+        <ul>
+          <li><a href="#home">Laman Utama</a></li>
+          <li><a href="#about">Tentang Kami</a></li>
+          <li><a href="#hours">Waktu Operasi</a></li>
+          <li><a href="#reviews">Ulasan</a></li>
+          <li><a href="#location">Lokasi</a></li>
+          <li><a href="https://www.facebook.com/p/Klinik-Pergigian-DR-EZZA-61572491042983/" target="_blank">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="f-bottom">
+      <span>© 2026 Klinik Pergigian Dr Ezza. Hak Cipta Terpelihara.</span>
+      <span>Dibina oleh <a href="#">Synaprix AI</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- ══════════ WA FLOAT ══════════ -->
+<a href="https://wa.me/60125045314?text=Hi%2C+saya+ingin+membuat+temujanji+di+Klinik+Pergigian+Dr+Ezza"
+   class="wa-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.488"/></svg>
+  <span class="wa-label">Temujanji</span>
+</a>
+
+<script>
+// ── Hamburger ──
+const ham = document.getElementById('ham');
+const mob = document.getElementById('mob');
+ham.addEventListener('click', () => {
+  ham.classList.toggle('open');
+  mob.classList.toggle('open');
+});
+function closeMob() {
+  ham.classList.remove('open');
+  mob.classList.remove('open');
+}
+
+// ── Hours logic ──
+const HOURS = { 0:[9,30,21,0], 1:[9,30,21,0], 2:null, 3:[9,30,21,0], 4:[9,30,21,0], 5:[9,30,21,0], 6:[9,30,21,0] };
+const LABELS = { 0:'9:30 pagi – 9:00 malam', 1:'9:30 pagi – 9:00 malam', 2:'Tutup', 3:'9:30 pagi – 9:00 malam', 4:'9:30 pagi – 9:00 malam', 5:'9:30 pagi – 9:00 malam', 6:'9:30 pagi – 9:00 malam' };
+const now = new Date(), day = now.getDay(), h = now.getHours(), m = now.getMinutes();
+const todayH = HOURS[day];
+let open = false;
+if (todayH) {
+  const cur = h * 60 + m, o = todayH[0] * 60 + todayH[1], c = todayH[2] * 60 + todayH[3];
+  open = cur >= o && cur < c;
+}
+const openStr   = open ? 'Buka ·' : 'Tutup ·';
+const openColor = open ? 'var(--cyan)' : 'var(--red)';
+
+// Desktop card
+const dOT = document.getElementById('desk-open-tag');
+const dHT = document.getElementById('desk-hours-text');
+if (dOT) { dOT.textContent = openStr; dOT.style.color = openColor; }
+if (dHT) dHT.textContent = ' ' + LABELS[day];
+
+// Mobile strip
+const mOT = document.getElementById('mob-open-tag');
+const mHT = document.getElementById('mob-hours-text');
+if (mOT) { mOT.textContent = openStr; mOT.style.color = openColor; }
+if (mHT) mHT.textContent = ' ' + LABELS[day];
+
+// Hours table: highlight today
+document.querySelectorAll('#hours-tbl .hr[data-day]').forEach(row => {
+  if (parseInt(row.dataset.day) === day) {
+    row.classList.add('today');
+    const el = row.querySelector('.hr-day');
+    const badge = document.createElement('span');
+    badge.className = 't-badge';
+    badge.textContent = 'Hari Ini';
+    el.appendChild(badge);
+  }
+});
+</script>
+</body>
+</html>
